@@ -1,3 +1,8 @@
+# HTML5 Attack and Secure
+
+This repository is a collaction of support material of HTML5 Attack and Secure Training provided by Anant Shrivastava. 
+This repository is maintained as new sessions are taking and hence the students get to have access to latest updates.
+
 # About Repository
 
 This repository is a propriotary material of Anant Shrivastava unless and until otherwise speicific in specific files.
@@ -18,4 +23,10 @@ The repository is shared with students with following aggrement
 
 1. If you have a issue / doubt or concern, add a issue in repository. 
 2. If you have a suggestion / change / correction feel free to suggest via issues section. Do not edit the file directly.
+
+## Direct contact.
+If the need be a student can directly contact Trainer at (anant <at> anantshri <dot> com). However in interest of ensuring that everyone learns i would suggest we keep the concerns public so that others can also learn from the discussions.
+
+# Live Presentation
+As the presentation is a HTML5 based presentation hence it will be made available via a specific Link so that all students have access to uptodate slides.
 
