@@ -25,7 +25,7 @@ The repository is shared with students with following aggrement
 2. If you have a suggestion / change / correction feel free to suggest via issues section. Do not edit the file directly.
 
 ## Direct contact.
-If the need be a student can directly contact Trainer at (anant <at> anantshri <dot> com). However in interest of ensuring that everyone learns i would suggest we keep the concerns public so that others can also learn from the discussions.
+If the need be a student can directly contact Trainer at (anant at anantshri dot info). However in interest of ensuring that everyone learns i would suggest we keep the concerns public so that others can also learn from the discussions.
 
 # Live Presentation
 As the presentation is a HTML5 based presentation hence it will be made available via a specific Link so that all students have access to uptodate slides.
