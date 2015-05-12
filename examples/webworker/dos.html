@@ -1,0 +1,9 @@
+<html>
+<script>
+var w = new Worker('dos.js');
+w.onmessage = function (event) {document.getElementById('out').innerHTML = event.data};
+function start() {
+w.postMessage(1); }
+</script>
+<input type="submit" onclick="start()"> <div id="out"></div>
+</html>

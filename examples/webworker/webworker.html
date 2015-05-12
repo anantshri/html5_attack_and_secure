@@ -1,0 +1,12 @@
+<!DOCTYPE HTML> <html>
+<head>
+<script>
+var worker=new Worker("worker.js"); // Creating a new worker thread to load javascript.
+worker.postMessage("foo"); // Using postMessage to send a message to webworkers.
+worker.onmessage=function(evt){ // Function receive data from worker.js 
+document.getElementById("result").innerHTML=evt.data; // Outputting the data.
+}
+</script>
+<p><b>Data received from Webworker:</b></p><div id="result"></div> <head>
+</body>
+</html>

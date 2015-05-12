@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anonymous Pro'), local('AnonymousPro'), url(https://fonts.gstatic.com/s/anonymouspro/v8/Zhfjj_gat3waL4JSju74E3n3cbdKJftHIk87C9ihfO8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/anonymouspro/v8/Zhfjj_gat3waL4JSju74E2hf89WnxcRaqxnpCB_GMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Anonymous Pro Bold'), local('AnonymousPro-Bold'), url(https://fonts.gstatic.com/s/anonymouspro/v8/WDf5lZYgdmmKhO8E1AQud9CbUiP4h8l_SeFbysZT7Cg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/anonymouspro/v8/WDf5lZYgdmmKhO8E1AQud6bFb7dg54i-VmmWhYOQ_f4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Antic Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Antic Slab'), local('AnticSlab-Regular'), url(https://fonts.gstatic.com/s/anticslab/v4/8c9q46CAcsp9TiRX9KLgZAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(https://fonts.gstatic.com/s/anticslab/v4/8c9q46CAcsp9TiRX9KLgZL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cabin Condensed'), local('CabinCondensed'), url(https://fonts.gstatic.com/s/cabincondensed/v7/B0txb0blf2N29WdYPJjMSlAsaHoO3zD_ZldBl2inOlc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/cabincondensed/v7/B0txb0blf2N29WdYPJjMStL_YSxa0Ggq46JEtXTJ0Ts.woff) format('woff');
+}
+@font-face {
+  font-family: 'Cabin Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cabin Condensed Bold'), local('CabinCondensed-Bold'), url(https://fonts.gstatic.com/s/cabincondensed/v7/Ez4zJbsGr2BgXcNUWBVgEMWg9SGyxfeqR13S7XHKZfE.woff2) format('woff2'), url(https://fonts.gstatic.com/s/cabincondensed/v7/Ez4zJbsGr2BgXcNUWBVgEIVuAxNqMQLTd3Copx4ZXM0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans Mono'), local('DroidSansMono'), url(https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJVlgUn8GogvcKKzoM9Dh-4E.woff2) format('woff2'), url(https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJaH0X__W3S3MJL29bc5CWfs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Linden Hill';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Linden Hill Regular'), local('LindenHill-Regular'), url(https://fonts.gstatic.com/s/lindenhill/v6/U7EN5b80-1Cl4i2bLpCYkogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2'), url(https://fonts.gstatic.com/s/lindenhill/v6/U7EN5b80-1Cl4i2bLpCYkrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 400;
+  src: local('News Cycle'), local('NewsCycle'), url(https://fonts.gstatic.com/s/newscycle/v13/9Xe8dq6pQDsPyVH2D3tMQgzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(https://fonts.gstatic.com/s/newscycle/v13/9Xe8dq6pQDsPyVH2D3tMQr3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'News Cycle';
+  font-style: normal;
+  font-weight: 700;
+  src: local('News Cycle Bold'), local('NewsCycle-Bold'), url(https://fonts.gstatic.com/s/newscycle/v13/G28Ny31cr5orMqEQy6ljt2aVI6zN22yiurzcBKxPjFE.woff2) format('woff2'), url(https://fonts.gstatic.com/s/newscycle/v13/G28Ny31cr5orMqEQy6ljt3bFhgvWbfSbdVg11QabG8w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quattrocento'), url(https://fonts.gstatic.com/s/quattrocento/v7/WZDISdyil4HsmirlOdBRFBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2'), url(https://fonts.gstatic.com/s/quattrocento/v7/WZDISdyil4HsmirlOdBRFKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Quattrocento';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Quattrocento Bold'), local('Quattrocento-Bold'), url(https://fonts.gstatic.com/s/quattrocento/v7/Uvi-cRwyvqFpl9j3oT2mqshHwsiXhsDb0smKjAA7Bek.woff2) format('woff2'), url(https://fonts.gstatic.com/s/quattrocento/v7/Uvi-cRwyvqFpl9j3oT2mqhAPw1J91axKNXP_-QX9CC8.woff) format('woff');
+}

@@ -1,0 +1,62 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>WebSQL Demo</title>
+		<script>
+
+var w=openDatabase('myDb',"1.0",'First db',20*1024*1024);
+
+w.transaction(
+	function (tx) 
+	{ 
+		tx.executeSql('CREATE TABLE foo (id PRIMARY KEY, text)');
+		tx.executeSql('INSERT INTO foo (id,text) VALUES (1,"Secret")');
+		tx.executeSql('INSERT INTO foo (id,text) VALUES (2,"VerySecret")');
+	}
+);
+
+function runme(){
+	//alert('ABV');
+w.transaction(
+	function (tx) 
+	{ 
+		id = document.getElementById("idip").value;
+		tx.executeSql('SELECT * from foo where id=' + id,[],function (tx, results){
+		var len = results.rows.length, i;
+		msg="<p>Found Rows: " + len + "</p>"
+		document.getElementById('status').innerHTML = msg;
+		for (i=0; i<len; i++){
+			msg="<p><b>" + results.rows.item(i).text + "</b></p>";
+			document.getElementById('status').innerHTML += msg;
+		}
+
+		}
+
+	);
+	}
+);
+}
+
+function runme1(){
+	//alert('ABV');
+w.transaction(
+	function (tx) 
+	{ 
+		id1 = document.getElementById("ip1").value;
+		text1 = document.getElementById("text1").value;
+		tx.executeSql("INSERT into foo (id,text) VALUES (" + id1 + ",'" + text1 + "')"); 
+	}
+);
+}
+		</script>
+	</head>
+	<body>
+	<input type=text id=idip value="1" />
+	<input type=button onclick="runme()" Value=Search />
+	<br />
+	<input type=text id=ip1 value="1" />
+	<input type=text id=text1 value="Text" />
+	<input type=button onclick="runme1()" Value=Insert />
+	<p id="status"></p>
+	</body>
+</html>

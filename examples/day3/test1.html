@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test page 1</title>
+	</head>
+	<body>
+	<p>
+		This page recieves the message and displayes it below.
+	</p>
+	<p id="test"> Message Here
+	</p> 
+		<script>
+		window.onmessage = function(e){
+			document.getElementById("test").innerHTML = e.origin + " said: " + e.data; 
+		};
+		function setdata(){
+			localStorage.setItem("Confidential","Secret");
+		};
+		function getdata(){
+			alert(localStorage.getItem("Confidential"));
+		};
+		</script>
+
+	<input type=button onclick="setdata()" value="Set localstorage" />
+	<input type=button onclick="getdata()" value="Get localstorage" />
+	</body>
+</html>

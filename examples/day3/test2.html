@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>postMessage target</title>
+    <script>
+    function sendmsg(){
+    var win = document.getElementById("iframe").contentWindow;
+    win.postMessage(document.getElementById("message").value,"*");
+}
+</script>
+
+</head>
+<body>
+ <header>
+      <h1>postMessage (cross domain)</h1>
+    </header>
+    <p>Type your message here</p>
+    <br />
+    <input type="text" id="message" name="message" />
+    <input type=button onclick="sendmsg()" value="submit" name="Click to send message" />
+    <br />
+<iframe id="iframe" src="http://localhost:8082/test1.html"></iframe>
+</body>
+</html>

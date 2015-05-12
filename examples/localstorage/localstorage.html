@@ -1,0 +1,40 @@
+<doctype html>
+	<head>
+		<title>Localstorage</title>
+	</head>
+	<body>
+<header>
+	<h1>LocalStorage Test Page</h1>
+</header>
+<p>Add Text Here</p>
+<ul id="present_textarea" contenteditable="true">
+<li>Test1</li>
+</ul>
+<p>Text is automatically saved to local storage, to clear click on the button below</p>
+<input type="button" id="clearall" value="clear Storage" >
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
+console.log("Onload fired via DOMContent Loaded");
+console.log(localStorage.getItem("text"));
+if (localStorage.getItem("text")){
+console.log("text found");
+	document.getElementById("present_textarea").innerHTML = localStorage.getItem("text");
+}
+});
+var textarea=document.getElementById("present_textarea");
+var clearall=document.getElementById("clearall");
+clearall.onclick=function(){
+	console.log("onclick");
+	localStorage.clear();
+	window.location.reload();
+};
+
+textarea.onblur=function(){
+console.log("onblur");
+localStorage.setItem("text",document.getElementById("present_textarea").innerHTML);
+console.log(	document.getElementById("present_textarea").innerHTML);
+};
+
+</script>
+</body>
+</html>
