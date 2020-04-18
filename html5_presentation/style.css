@@ -1,0 +1,99 @@
+/*.reveal h1 {
+		margin-bottom: 50px;
+}
+.reveal h2 {
+		margin-bottom: 40px;
+}
+.reveal h3 {
+		margin-bottom: 30px;
+}
+.reveal h4 {
+		margin-bottom: 20px;
+}
+.reveal h5 {
+		margin-bottom: 10px;
+}*/
+.reveal section img{
+	border:none;
+	box-shadow: none;
+}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	text-align: center;
+/*	Enable Below section for following feature
+	Title Background color
+	Title text color
+	Title text shadow
+*/
+/*	background-color: #FF0D03;
+	padding: 6px 0 6px 10px;
+	margin: 6px 0 6px 10px;
+	color: white;
+	text-shadow: 4px 4px #000000;
+*/}
+/*.reveal h1 { 
+	font-size: 3.21em; 
+}*/
+.reveal .slides {
+	text-align: left;
+/*	font-size:100%;*/
+}
+p 
+ol 
+li {
+	text-align: left;
+}
+.two-column .left {
+	max-width:50%;
+	float:left;
+}
+.two-column .right {
+	max-width: 50%;
+/*	float: right;*/
+}
+.images-side-by-side {
+	width=300px;
+}
+.image-text p, .image-text ol, .image-text ul, .image-text div {
+	max-width:50%;
+	float:left;
+	margin-right: 20px;
+}
+.image-text img {
+	max-width: 50%;
+	margin-left: 20px;
+	float:left;
+}
+
+.content-center p, .content-center img  {
+ text-align: center;
+ float:center;
+ vertical-align: center;
+}
+
+.title-only h1{	
+/*	vertical-align: middle;
+	float:center;
+	text-align:center;
+*/	left: 0;
+    line-height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.tiny-gap h1, .tiny-gap h2, .tiny-gap h3, .tiny-gap h4, .tiny-gap h5{
+	margin-bottom: 10px;
+}
+.tiny-title h1{
+	margin: 0px;
+	padding: 0px;
+}
+
+.reduce-font  table, .reduce-font td, .reduce-font  tr, .reduce-font  thead, .reduce-font  tbody {
+	font-size: 90%;
+}
+
+.reduce-font p {
+	font-size:80%;
+}
