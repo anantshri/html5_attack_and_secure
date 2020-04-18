@@ -1,32 +1,18 @@
 # HTML5 Attack and Secure
 
-This repository is a collaction of support material of HTML5 Attack and Secure Training provided by Anant Shrivastava. 
-This repository is maintained as new sessions are taking and hence the students get to have access to latest updates.
+This repository is a collection of support material of HTML5 Attack and Secure Training provided by Anant Shrivastava. 
 
-# About Repository
+The material is made public in spirit of free learning on 18 April 2020. Author holds no liability about the usage and accuracy of this material and the material is provided as is.
 
-This repository is a propriotary material of Anant Shrivastava unless and until otherwise speicific in specific files.
+Except the whitepapers section which is collection of public whitepapers which have their own license policies.  The material license is shifted to creative commons share alike license from this date (18 April 2020). 
 
-The repository is shared with students with following aggrement
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-1. The content is shared with students to mintain continuous learning.
-2. The content is only shared with the course participants and should not be shared with any third party.
-3. any person found voilating this term (item 2) will have his/her access removed.
-4. The access is granted for lifetime.
-5. Here lifetime means.
-    1. Lifetime of Anant Shrivastava (author)
-    2. Lifetime of Github
-    3. Lifetime of Student
-    4. Ability of Anant Shrivastava to continue paying Github.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0
+International License][cc-by-sa].
 
-## How to colaborate
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-1. If you have a issue / doubt or concern, add a issue in repository. 
-2. If you have a suggestion / change / correction feel free to suggest via issues section. Do not edit the file directly.
-
-## Direct contact.
-If the need be a student can directly contact Trainer at (anant at anantshri dot info). However in interest of ensuring that everyone learns i would suggest we keep the concerns public so that others can also learn from the discussions.
-
-# Live Presentation
-As the presentation is a HTML5 based presentation hence it will be made available via a specific Link so that all students have access to uptodate slides.
-
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
