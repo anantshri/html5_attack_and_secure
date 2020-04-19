@@ -1,10 +1,10 @@
-# HTML5 Attack and Secure
+# HTML5: Attack and Secure
 
-This repository is a collection of support material of HTML5 Attack and Secure Training provided by Anant Shrivastava. 
+This repository is a collection of support material for _HTML5: Attack and Secure Training_ by Anant Shrivastava.
 
-The material is made public in spirit of free learning on 18 April 2020. Author holds no liability about the usage and accuracy of this material and the material is provided as is.
+The material was made public on 18 April 2020 in the spirit of free learning. Author holds no liability for the usage and accuracy of this material and the material is provided as is.
 
-Except the whitepapers section which is collection of public whitepapers which have their own license policies.  The material license is shifted to creative commons share alike license from this date (18 April 2020). 
+Except the whitepapers section which is collection of public whitepapers that have their own license policies, the project's license has been changed to Creative Commons ShareAlike license, from 18 April 2020.
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
