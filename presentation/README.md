@@ -1,9 +1,13 @@
-# HTML 5 Presentation in HTML5
+# HTML5 Presentation in HTML5
 
-This entire presentation is written in HTML5 format. and hence is interactive at various sections. To run this you need to start a simple http server on your system and them open the webpage index.html
+The entire presentation is written in HTML5 format. As such, it is interactive at various sections. To run this you need to start a simple HTTP server on your machine and then open `index.html`.
 
-I generally suggests my own [http command](https://github.com/anantshri/script-collection/blob/master/Shell/http) this does the job of finding the right server and serving the static files.
+I generally suggest my own [http command](https://github.com/anantshri/script-collection/blob/master/Shell/http) since it automatically does the job of finding the right server and serving the static files. For example, you may do:
 
-The presentation is created using combination of markdown files as source and reveal.js as presentation layer
+```
+git clone https://github.com/anantshri/html5_attack_and_secure.git
+cd presentation
+python3 -m http.server
+```
 
- 
+This presentation uses reveal.js with markdown files as the source.
