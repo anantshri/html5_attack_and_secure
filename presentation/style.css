@@ -51,7 +51,7 @@ li {
 /*	float: right;*/
 }
 .images-side-by-side {
-	width=300px;
+	width: 300px;
 }
 .image-text p, .image-text ol, .image-text ul, .image-text div {
 	max-width:50%;
