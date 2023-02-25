@@ -21,7 +21,7 @@
     "node": "~0.10.0"
   },
   "dependencies": {
-    "underscore": "~1.5.1",
+    "underscore": "~1.13.6",
     "express": "~2.5.9",
     "mustache": "~0.7.2",
     "socket.io": "~0.9.16"
