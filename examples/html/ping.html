@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ping Attribute Example</title>
+<style>
+  body {font-family:Verdana,sans-serif;font-size:0.9em;}
+  div#log {border:1px solid grey;margin:5px;padding:8px;background-color:#eee;min-height:50px;}
+</style>
+</head>
+<body>
+<h1>HTML5 Ping Attribute</h1>
+<p>Click the link below. The browser will send a <code>POST</code> request to <code>track.php</code>
+(with <code>Ping-From</code> / <code>Ping-To</code> headers) in addition to navigating to the target URL.
+No JavaScript is involved.</p>
+
+<a href="https://example.com" ping="track.php" id="trackedlink">Visit example.com (tracked)</a>
+
+<div id="log">
+  <strong>Server log will show:</strong><br>
+  POST /track.php HTTP/1.1<br>
+  Ping-From: http://localhost/.../ping.html<br>
+  Ping-To: https://example.com
+</div>
+
+</body>
+</html>
