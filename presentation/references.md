@@ -8,6 +8,7 @@
 
 1. https://html5sec.org/
 1. http://www.andlabs.org/html5.html
+1. https://davidwalsh.name/ping-attribute
 1. https://code.google.com/p/html5security/wiki/WebSQLDatabaseSecurity
 1. https://code.google.com/p/html5security/wixki/CrossOriginRequestSecurity
 1. https://github.com/cure53/H5SC

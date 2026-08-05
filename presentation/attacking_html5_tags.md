@@ -215,3 +215,30 @@ else
 });
 &lt;script>
 </pre>
+
+--
+
+# Ping Attribute
+
+1. HTML5 anchor tag attribute
+1. Browser sends a POST request to the `ping` URL whenever the link is clicked
+1. No JavaScript required — works even with JS disabled
+1. Can be abused for user tracking / click-logging
+
+<pre>
+&lt;a href="https://example.com"
+   ping="https://tracker.example/log">
+    Click me
+&lt;/a>
+</pre>
+
+#### Request sent on click
+<hr>
+POST /log HTTP/1.1
+Host: tracker.example
+Ping-From: https://victim-site.com/page
+Ping-To: https://example.com
+
+#### Example
+<hr>
+<a href="https://example.com" ping="/track">Visit example.com (check server log for POST)</a>
